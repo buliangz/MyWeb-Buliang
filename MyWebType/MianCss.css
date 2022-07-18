@@ -1,0 +1,39 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.MainDiv00{
+    width: 75%;
+    height: 1500px;
+    margin: auto;
+}
+.titleBackground{
+    width: 100%;
+    height: 25%;
+    background-image: url(../images/f2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%; 
+}
+.nav01{
+    width: 100%;
+    height: 5%;
+    text-align: center;
+    background-color: azure;
+}
+.nav01 a{
+    font-size: 20px;
+    line-height: 4rem;
+    margin: 0 6rem 0 6rem;
+}
+.aboutMe{
+    width: 100%;
+    height: 60%;
+    background-color: rgb(63, 205, 230);
+}   
+.Changelog{
+    width: 100%;
+    height: 10%;
+    background-color: rgb(73, 147, 187);
+}
