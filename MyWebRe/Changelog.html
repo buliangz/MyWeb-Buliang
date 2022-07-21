@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MyWebRe1.2</title>
-    <link rel="stylesheet" type="text/css" href="MyWebType/MianCss.css">
+    <link rel="stylesheet" type="text/css" href="../MyWebType/MianCss.css">
     <style>
         /* 小屏幕手机端 */
         @media (min-width: 0px) and (max-width:540px) {
@@ -35,29 +35,30 @@
 </head>
 <body>
 
-        <!-- <script></script> -->
     <div class="MainDiv00"><!--总页面div-->
         <div class="titleBackground" id="titleBackground"> <!--头部div-->           
         </div>
         
         <div class="nav01"><!--导航栏nav-->
             <div class="nav01a1">
-                <a href="#titleBackground">主 页</a>
+                <a href="../index.html">主 页</a>
             </div>
             <div class="nav01a2">
-                <a href="#aboutMe">关于我</a>
+                <a href="../index.html">关于我</a>
             </div>
             <div class="nav01a3">
-                <a href="MyWebRe/Changelog.html">更新日志</a>
+                <a href="#Changelog">更新日志</a>
             </div>
             
         </div>
 
-        <div class="aboutMe" id="aboutMe"><!--关于我div-->
-
+        <div class="Changelog" id="Changelog"><!--更新日志div-->
+            <p class="p1">这是我的网页更新日志，争取每天都进行一些迭代更新</p>
+            <p>v1.0 2022.07.16 上传测试文本【MyWebRe 1.0】到Github代码库，测试Web环境</p>
+            <p>v1.1 2022.07.17 开始划分内容区域【使用背景颜色、id锚点区分版块与跳转】，上传top背景图以及规划内容版块【首页|关于我|联系我】</p>
+            <p>v1.2 2022.07.18 将版块内容重新划分为【主页|关于我|更新日志】，添加版块注释、更新日志内容、优化版块css样式</p>
+            <p>v1.2 2022.07.21 进行了一些移动端与客户端的适配并拆分更新日志、对部分css样式进行优化</p>
         </div>
-
-        
     </div>
     
 </body>

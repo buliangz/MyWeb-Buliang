@@ -1,39 +1,73 @@
+html,body{
+    width: 100%;
+    height: 100%;
+}
 body{
+    width: 100%;
+    height: 100%;
+    /* min-width: 320px; */
     margin: 0px;
     padding: 0px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
+
+/* 背景首页 */
 .MainDiv00{
-    width: 75%;
-    height: 1500px;
+    width: 100%;
+    height: 100%;
     margin: auto;
 }
 .titleBackground{
-    width: 100%;
-    height: 25%;
-    background-image: url(../images/f2.jpg);
+    /* width: 100%; */
     background-repeat: no-repeat;
     background-size: 100% 100%; 
+    /* height: auto; */
+    background-image: url(../images/f2.jpg);
+    
 }
+/* 导航栏 */
 .nav01{
     width: 100%;
-    height: 5%;
+    height: 2.25rem;
     text-align: center;
-    background-color: azure;
+    font-weight: 550;
+    font-size: 1.25rem;
+    line-height: 1.75em;
+    margin: 0.5rem 0 0.5rem 0;
+    background-color: rgb(20, 230, 230);
 }
-.nav01 a{
-    font-size: 20px;
-    line-height: 4rem;
-    margin: 0 6rem 0 6rem;
+.nav01a1{
+    margin-left: 4rem;
+    float: left;
 }
+.nav01a2{
+    display: inline-block;
+}
+.nav01a3{
+    margin-right: 4rem;
+    float: right;
+}
+/* 关于我 */
 .aboutMe{
     width: 100%;
     height: 60%;
     background-color: rgb(63, 205, 230);
 }   
+
+/* 更新日志 */
 .Changelog{
     width: 100%;
-    height: 10%;
+    /* height: 10%; */
     background-color: rgb(73, 147, 187);
+}
+.Changelog p{
+    width: 70%;
+    margin: auto;
+    line-height: 2.5rem;
+}
+.p1{
+    /* margin: 200px 0 2px 0; */
+    padding: 2rem 0 2rem 0;
+    text-align: center;
 }
