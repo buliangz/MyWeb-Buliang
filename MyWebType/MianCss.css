@@ -12,11 +12,9 @@ html,body{
 }
 /* 头部 */
 .TopTitleBackground{
-    background-color: #c08a8e6d;
-    /* background-color: rgb(228,232,236); */
+    background-color:rgb(228,205,207);
     height: 5%;
 }
-
 .txt01{
     margin-left: 1.5rem;
     line-height:2.5rem;
@@ -24,8 +22,6 @@ html,body{
     float: left;
 }
 .txt02{
-    /* border-radius: 8%; */
-    
     margin-right: 3%;
     float: right;
     line-height: 2.5rem;
@@ -46,7 +42,7 @@ html,body{
 .MainTxT_02{
     width: 100%;
     height: 70%;
-    background-color: rgb(228,205,207);
+    background-color: #E2D8DB;
 }
 .MainTxT_Top{
     width: 80%;
@@ -60,23 +56,19 @@ html,body{
     background-image: url(../images/d.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    /* z-index: 2; */
-    /* background-color: azure; */
     border-radius: 10%;
     float: left;
 }
 .MainTxT_TopTxT{
     position:absolute;
     font-size: 1.5rem;
-    /* font-weight:bolder; */
     font-family:'Courier New', Courier, monospace;
     top: 60%;
     left: 40%;
 }
 .MainTxT_body01{
     width: 100%;
-    height: 15%;
-    
+    height: 15%;    
 }
 .MainTxT_body02{
     width: 80%;
@@ -96,12 +88,10 @@ html,body{
 /* 更新日志 */
 .Changelog{
     width: 100%;
-    /* background-colo: rgba(210, 130, 80, 0.181); */
 }
 .Changelog p{
     width: 70%;
     margin: auto;
-    font-size: 0.25rem;
 }
 .p1{
     padding: 2rem 0 2rem 0;
