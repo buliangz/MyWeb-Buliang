@@ -1,74 +1,112 @@
 html,body{
     width: 100%;
     height: 100%;
-}
-body{
-    width: 100%;
-    height: 100%;
-    /* min-width: 320px; */
     margin: 0px;
     padding: 0px;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
 }
 
-/* 背景首页 */
+/* 总页面div */
 .MainDiv00{
     width: 100%;
     height: 100%;
-    margin: auto;
 }
-.titleBackground{
-    /* width: 100%; */
-    background-repeat: no-repeat;
-    background-size: 100% 100%; 
-    /* height: auto; */
-    background-image: url(../images/f2.jpg);
-    
+/* 头部 */
+.TopTitleBackground{
+    background-color: #c08a8e6d;
+    /* background-color: rgb(228,232,236); */
+    height: 5%;
 }
-/* 导航栏 */
-.nav01{
-    width: 100%;
-    height: 2.25rem;
-    text-align: center;
-    font-weight: 550;
-    font-size: 1.25rem;
-    line-height: 1.75em;
-    margin: 0.5rem 0 0.5rem 0;
-    background-color: rgb(20, 230, 230);
-}
-.nav01a1{
-    margin-left: 4rem;
+
+.txt01{
+    margin-left: 1.5rem;
+    line-height:2.5rem;
+    /* font-size: 0.25rem; */
     float: left;
 }
-.nav01a2{
-    display: inline-block;
-}
-.nav01a3{
-    margin-right: 4rem;
+.txt02{
+    /* border-radius: 8%; */
+    
+    margin-right: 3%;
     float: right;
+    line-height: 2.5rem;
 }
-/* 关于我 */
-.aboutMe{
+/* 内容 */
+.MainTxT{
     width: 100%;
-    height: 60%;
-    text-align:center;
-    background-color: rgb(63, 205, 230);
-}   
+    height: 95%;
+}
+.MainTxT_01{
+    width: 100%;
+    height: 25%;
+    background-image: url(../images/bg16_9.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.MainTxT_02{
+    width: 100%;
+    height: 70%;
+    background-color: #E2D8DB;
+}
+.MainTxT_Top{
+    width: 80%;
+    position:absolute;
+    top: 70%;
+    left: 10%;
+}
+.MainTxT_TopBg{
+    width: 100px;
+    height: 100px;
+    background-image: url(../images/d.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    /* z-index: 2; */
+    /* background-color: azure; */
+    border-radius: 10%;
+    float: left;
+}
+.MainTxT_TopTxT{
+    position:absolute;
+    font-size: 1.5rem;
+    /* font-weight:bolder; */
+    font-family:'Courier New', Courier, monospace;
+    top: 60%;
+    left: 40%;
+}
+.MainTxT_body01{
+    width: 100%;
+    height: 15%;
+    
+}
+.MainTxT_body02{
+    width: 80%;
+    margin: auto;
+    font-size: 0.85rem;
+    border: 4px rgb(192,107,111) solid;
+    line-height: 0.95rem;
+}
+.MainTxT_body03{
+    width: 80%;
+    margin: auto;
+}
+.cent{
+    text-align: center
+}
 
 /* 更新日志 */
 .Changelog{
     width: 100%;
-    /* height: 10%; */
-    background-color: rgb(73, 147, 187);
+    /* background-colo: rgba(210, 130, 80, 0.181); */
 }
 .Changelog p{
     width: 70%;
     margin: auto;
-    line-height: 2.5rem;
+    font-size: 0.25rem;
 }
 .p1{
-    /* margin: 200px 0 2px 0; */
     padding: 2rem 0 2rem 0;
+    text-align: center;
+}
+.tmptxt{
     text-align: center;
 }

@@ -4,30 +4,39 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MyWebRe1.2</title>
+    <title>MyWebRe2.0</title>
     <link rel="stylesheet" type="text/css" href="MyWebType/MianCss.css">
     <style>
-        /* 小屏幕手机端 */
-        @media (min-width: 0px) and (max-width:540px) {
-            .titleBackground{
+        /* 小屏幕手机端 */        
+        @media (min-width: 0px) and (max-width:420px) {
+            .MainTxT_01{
                 width: 100%;
                 height: 25%;              
             }
         }
-        
         /* 中等屏幕（桌面显示器，大于等于 992px） */
         @media (min-width: 540px) and (max-width:992px){
-            .titleBackground{
+            .MainTxT_01{
                 width: 100%;
-                height: 35%;                 
+                height: 40%;                 
+            }
+            .MainTxT_TopTxT{
+                /* position:absolute; */
+                top: 70%;
+                left: 20%;
             }
         }
         
         /* 大屏幕（大桌面显示器，大于等于 1200px） */
         @media (min-width: 992px) {
-            .titleBackground{
+            .MainTxT_01{
                 width: 100%;
-                height: 75%;               
+                height: 80%;               
+            }
+            .MainTxT_TopTxT{
+                /* position:absolute; */
+                top: 40%;
+                left: 15%;
             }
         }
     </style>
@@ -37,27 +46,55 @@
 
         <!-- <script></script> -->
     <div class="MainDiv00"><!--总页面div-->
-        <div class="titleBackground" id="titleBackground"> <!--头部div-->           
-        </div>
-        
-        <div class="nav01"><!--导航栏nav-->
-            <div class="nav01a1">
-                <a href="#titleBackground">主 页</a>
+        <!--头部div-->
+        <div class="TopTitleBackground">            
+            <!-- 欢迎 -->
+            <div class="txt01">
+                我的小世界，BuLiang                
             </div>
-            <div class="nav01a2">
-                <a href="#aboutMe">关于我</a>
+            <div class="txt02">
+                <a href="index.html"><b>我的首页</b> </a>|
+                <a href="MyWebRe/Changelog.html"><b>更新日志</b></a>
             </div>
-            <div class="nav01a3">
-                <a href="MyWebRe/Changelog.html">更新日志</a>
+        </div>
+        <!-- 内容div -->
+        <div class="MainTxT">
+            <!-- 头像 -->
+            <div class="MainTxT_01">
+                <div class="MainTxT_Top">
+                    <!-- <a href="index.html"></a> -->
+                    <div class="MainTxT_TopBg">
+                        <!-- <img src="images/d.jpg" alt=""> -->
+                    </div>
+                    <div class="MainTxT_TopTxT">Hi,我是不凉</div>
+                </div>
             </div>
-            
-        </div>
-
-        <div class="aboutMe" id="aboutMe"><!--关于我div-->
-            暂未做内容规划，就先空着吧
-        </div>
-
-        
+            <!-- 介绍 -->
+            <div class="MainTxT_02">
+                <div class="MainTxT_body01"></div>
+                <div class="MainTxT_body02">
+                    <div class="MainTxT_body03">
+                        <p class="cent"><b>一些介绍</b></p>
+                        
+                        <p><b>昵称：</b> 不凉</p> 
+                        <p><b>职业：</b> 在校生</p>
+                        <p><b>我的签名：</b>一个看不到希望的小菜鸟，没有能力但野心很大</p>
+                        <p><b>未来的发展方向：</b>想做一个不起眼的前端小攻城狮</p>
+                        <p></p>
+                        <p class="cent"><b>联系方式</b></p>
+                        <p><b>QQ：</b>3207475457</p>
+                        <p><b>邮箱：</b>buliangz@yeah.net</p>
+                        <p class="cent"><b>我的一些小破站</b></p>
+                        <p><b>博客园：</b><a target="_blank" href="https://www.cnblogs.com/BuLz/">https://www.cnblogs.com/BuLz/</a></p>
+                        <p><b>CSD：</b><a target="_blank" href="https://blog.csdn.net/m0_56146871?type=blog">https://blog.csdn.net/m0_56146871?type=blog</a></p>
+                        <p><b>Github：</b><a target="_blank" href="https://github.com/buliangz">https://github.com/buliangz</a></p>
+                        
+                    </div>                 
+                    
+                    
+                </div>
+            </div>
+        </div>        
     </div>
     
 </body>
